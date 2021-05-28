@@ -1,0 +1,65 @@
+.middle{
+  text-align: center;
+}
+ul{
+  font-size: 20px;
+}
+.contact-form{
+  font-size: 40px;
+   max-width: 400px;
+  margin: auto;
+  border: 3px solid blue;
+  border-width: 10px 10px;
+}
+h2{
+  color: blue;
+  font-family: Courier New, Courier;
+}
+.menu{
+  text-align: center;
+}
+.img-h{
+  font-family: Courier New, Courier, monospace;
+  text-align: center;
+  font-size: 40px;
+  color :GREEN;
+  max-width: 400px;
+  margin: auto;
+}
+
+}
+.column-h {
+  float: left;
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+}
+.column-c {
+  float:middle;
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+}
+.column-g {
+  float:right;
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  size: 15px;
+  width: 30px;
+  height: 30px;
+}
+i{
+  font-size: 40px;
+}
+.de{
+  text-align: center;
+}
+
